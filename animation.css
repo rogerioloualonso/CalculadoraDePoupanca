@@ -1,0 +1,35 @@
+
+@keyframes up{
+    from{
+        opacity:0;
+        transform: translateY(16px);
+    }
+
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left{
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+}
+
+.animation-left{
+    animation-name:left;
+    animation-duration: 1000ms;
+    animation-fill-mode:backwards;
+}
+
+.animation-up{
+    animation-name:up;
+    animation-duration:1s;
+    animation-fill-mode:backwards;
+    animation-delay:2s;
+}

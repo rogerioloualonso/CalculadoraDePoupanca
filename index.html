@@ -1,0 +1,75 @@
+<!DOCTTPE html>
+
+<html>
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>Calculadora de Poupança</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="animation.css">
+        <link rel="icon" href="icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div id="all">
+            <div id="container">
+                <div id="title">
+                    <header>
+                        <h1><b>Calculadora de Poupança</b></h1>
+                        <hr id="line"/>
+                    </header>
+                </div>
+
+                <div id="tips">
+
+                    <h2 class="animation-left">Como usar a aplicação:</h2>
+                    <ol type="I" class="animation-left">
+                        <li>Insira o valor inicial que você tem ou coloque zero</li>
+                        <li>Insira o valor final que deseja ter;</li>
+                        <li>Insira a quantidade de meses para o planejamento;</li>
+                    </ol>
+                    <p id="text_final" class="animation-left">No final, apresentaremos o valor mensal que será necessário guardar.</p>
+                    <img src="stonks.jpg" id="stonks" class="animation-up">
+
+                </div>
+
+                <div id="calculator">
+
+                    <div id="sup">
+                        <div id="div_left">
+                        <p class="text_calc"><b>Valor Inicial</b></p>
+                        <input type="text" id="input_valor_inicial" placeholder="Valor sem o R$"/>
+                        </div>
+                        <div id="div_center">
+                            <p class="text_calc"><b>Valor desejado</b></p>
+                            <input type="text" id="input_valor" placeholder="Valor sem o R$"/>
+                        </div>
+                        <div id="div_right">
+                            <p class="text_calc"><b>Meses</b></p>
+                            <input type="text" id="input_mes" placeholder="Número inteiro"/>
+                        </div>
+                    </div>
+                    <div id="inf">
+                        <p class="text_calc"><b>Valor mensal</b></p>
+                        <input type="text" id="output_mensal" readonly="true"/>
+                    </div>
+
+                    <div id="div_button">
+                        <input type="button" id="button" onclick="calc()">
+                    </div>
+                
+
+                <div id="name">
+                    <p> Rogério Alonso</p>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,167 @@
+header{
+    text-align:center;
+    margin-top:4vh;
+    font-size:20px;
+    line-height:1px; /*Espaçamento entre as linhas*/
+}
+
+#title{
+    position:absolute;
+    top:30px;
+    left:450px;
+}
+
+#tips{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top:140px;
+    width:27vw;
+    height:20vh;
+    text-align: justify;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#0C27BD; 
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+}
+
+#all{
+    padding:0;
+    width:100vw; /*Largura*/
+    height:100vh;/*Comprimento*/
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+    background-color: #ADD8E6;
+}
+
+#stonks{
+    position:absolute;
+    border-radius:60px;
+    margin-top:0px;
+    margin-left:30px;
+    border-color:white;
+    border-style:groove;
+    border-width:10px;
+}
+
+#calculator{
+    background-color:white;
+    border-style:groove;
+    border-width:6px;
+    border-color:#0C27BD;
+    border-radius:60px;
+    position:absolute;
+    width:860px;
+    height:450px;
+    margin: -140px 0px 0px 450px;
+}
+
+#name{
+    position:absolute;
+    margin: 450px 0px 0px 700px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+#line{
+    border-width:2px;
+    border-style:solid;
+    border-color:#0C27BD;
+    width: 100%;
+}
+
+#text_final{
+    text-align: center;
+}
+
+input[type=text]{
+    width:200px;
+    height: 50px;
+    border-color:#0C27BD;
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: #ADD8E6;
+    text-align:center;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#sup{
+    width:850px;
+    display:flex;
+    position:absolute;
+    margin: 60px 0px 0px 0px;
+}
+
+#div_left{
+    /*position:flex;*/
+    margin:0px 50px 0px 80px;
+}
+
+#div_center{
+    margin:0px 50px 0px 0px;
+}
+
+#div_button{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    right:600px;
+    top:300px;
+    /*Usando o absolute melhor*/
+}
+
+#inf{
+    position:absolute;
+    margin: 230px 0px 0px 400px
+}
+
+.div{
+    display:flex;
+    width:300px; 
+}
+
+
+.text_calc{
+    color:#0C27BD;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*Tira/eita a seleção do input*/
+textarea:focus, input:focus, select:focus {
+    border: 3px solid;
+    border-color: black;
+    outline: 0;
+} 
+
+#output_mensal{
+    background-color: #9ACD32;
+}
+
+#button{
+    background-image: url("text.jpg");
+    border-radius:15px;
+    border-color:#0C27BD;
+    width:100px;
+    height:50px;
+    font-size:20px;
+}
+
+#button:hover{
+    color:#006400;
+    border-color:#F07720;
+    background-image: url("back.jpg");
+    transition:800ms;
+}
