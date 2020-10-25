@@ -15,7 +15,7 @@ header{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
     margin-left: 30px;
-    margin-top:140px;
+    margin-top:100px;
     width:27vw;
     height:20vh;
     text-align: justify;
@@ -51,6 +51,8 @@ body{
     border-color:white;
     border-style:groove;
     border-width:10px;
+    width:300px;
+    height:180px;
 }
 
 #calculator{
@@ -62,14 +64,7 @@ body{
     position:absolute;
     width:860px;
     height:450px;
-    margin: -140px 0px 0px 450px;
-}
-
-#name{
-    position:absolute;
-    margin: 450px 0px 0px 700px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
+    margin: -120px 0px 0px 450px;
 }
 
 #line{

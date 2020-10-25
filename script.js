@@ -1,11 +1,10 @@
-/*function mes(){
-    var quant_mes = document.getElementById("input_mes").value
+function no_stonks(){
+  document.getElementById("stonks").src="nostonks.jpg"
 }
 
-function valor(){
-    var valor_total = document.getElementById("input_valor").value
+function background_color(){
+  document.getElementById("output_mensal").style.backgroundColor="#FF3030"
 }
-*/
 
 function calc(){
 
