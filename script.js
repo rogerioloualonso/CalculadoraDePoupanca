@@ -2,10 +2,6 @@ function no_stonks(){
   document.getElementById("stonks").src="nostonks.jpg"
 }
 
-function background_color(){
-  document.getElementById("output_mensal").style.backgroundColor="#FF3030"
-}
-
 function calc(){
 
     var valor_total = document.getElementById("input_valor").value
