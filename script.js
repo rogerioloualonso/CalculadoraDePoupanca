@@ -1,5 +1,6 @@
 function no_stonks(){
   document.getElementById("stonks").src="nostonks.jpg"
+  //
 }
 
 function calc(){
