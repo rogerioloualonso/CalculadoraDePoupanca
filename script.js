@@ -1,6 +1,5 @@
 function no_stonks(){
   document.getElementById("stonks").src="nostonks.jpg"
-  //
 }
 
 function calc(){
@@ -17,21 +16,17 @@ function calc(){
       var auxiliar = valor_inicial
 
     for(var i = 0; i < quant_mes; i++){
-        if(i == 0){
-          auxiliar = mensal;
-          continue;
-        }
-       auxiliar *= 1.0005;
-       auxiliar += mensal;
+       auxiliar *= 1.005
+       auxiliar += mensal
     }
 
     if(auxiliar > valor_total){
-        mensal -= 0.1;
+        mensal -= 0.1
       }
     
     }while(auxiliar > valor_total)
 
-    mensal += 0.1;
+    mensal += 0.1
 
     document.getElementById("output_mensal").value = "R$ " + mensal.toFixed(2)
 }
