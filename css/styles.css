@@ -146,7 +146,7 @@ textarea:focus, input:focus, select:focus {
 }
 
 #button{
-    background-image: url("text.jpg");
+    background-image: url("../imagens/text.jpg");
     border-radius:15px;
     border-color:#0C27BD;
     width:100px;
@@ -157,6 +157,6 @@ textarea:focus, input:focus, select:focus {
 #button:hover{
     color:#006400;
     border-color:#F07720;
-    background-image: url("back.jpg");
+    background-image: url("../imagens/back.jpg");
     transition:800ms;
 }

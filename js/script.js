@@ -1,5 +1,5 @@
 function no_stonks(){
-  document.getElementById("stonks").src="nostonks.jpg"
+  document.getElementById("stonks").src="imagens/nostonks.jpg"
 }
 
 function calc(){
